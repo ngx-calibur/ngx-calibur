@@ -1,0 +1,14 @@
+{
+  "name": "ngx-calibur",
+  "version": "0.0.3",
+  "repository": {
+    "url": "https://github.com/ngx-calibur/ngx-calibur"
+  },
+  "peerDependencies": {
+    "@angular/common": "^11.2.12",
+    "@angular/core": "^11.2.12"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}

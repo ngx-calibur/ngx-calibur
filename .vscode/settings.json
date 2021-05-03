@@ -1,0 +1,20 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+  },
+  "editor.formatOnSave": true,
+  "[typescript]": {
+    "editor.formatOnSave": false,
+  },
+  "stylelint.enable": true,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "html.format.endWithNewline": true,
+  "typescript.format.semicolons": "insert",
+  "eslint.validate": [
+    "typescript",
+    "javascript"
+  ]
+}
