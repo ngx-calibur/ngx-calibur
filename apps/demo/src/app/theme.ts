@@ -15,8 +15,8 @@ export abstract class Theme {
 export class DemoTheme implements Theme {
 
   colors = {
-    primary: 'blue-500',
-    secondary: 'green-500',
+    primary: 'bg-blue-500',
+    secondary: 'bg-green-500',
   };
 
   base = {
@@ -24,8 +24,8 @@ export class DemoTheme implements Theme {
   };
 
   buttons = {
-    primary: `${this.base.button} bg-${this.colors.primary} hover:bg-blue-700`,
-    secondary: `${this.base.button} bg-${this.colors.secondary} hover:bg-green-700`,
+    primary: `${this.base.button} ${this.colors.primary} hoveblue-700`,
+    secondary: `${this.base.button} ${this.colors.secondary} hover:bg-green-700`,
   };
 
 }
