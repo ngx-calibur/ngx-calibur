@@ -7,9 +7,11 @@ import { ExcaliburAnimationsModule } from '@ngx-calibur/animations';
 import { ExcaliburDisclosureModule } from '@ngx-calibur/disclosure';
 import { ExcaliburDropdownModule } from '@ngx-calibur/dropdown';
 import { AppComponent } from './app.component';
+import { ButtonDirective } from './directives/button.directive';
+import { DemoTheme, Theme } from './theme';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, ButtonDirective],
   imports: [
     BrowserModule,
     RouterModule.forRoot([]),
@@ -18,7 +20,7 @@ import { AppComponent } from './app.component';
     /* -------------------------------------------------------------------------- */
     /*                                  Excalibur                                 */
     /* -------------------------------------------------------------------------- */
-    ExcaliburModule.forRoot(),
+    ExcaliburModule.forRoot<Theme>({ themeConfig: new DemoTheme() }),
     ExcaliburAnimationsModule,
     ExcaliburDisclosureModule,
     ExcaliburDropdownModule,

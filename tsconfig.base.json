@@ -21,6 +21,9 @@
       "@ngx-calibur": [
         "libs/ngx-calibur/src/index.ts"
       ],
+      "@ngx-calibur/core": [
+        "libs/ngx-calibur/src/lib/core/index.ts"
+      ],
       "@ngx-calibur/animations": [
         "libs/ngx-calibur/src/lib/animations/index.ts"
       ],
