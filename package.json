@@ -8,6 +8,7 @@
     "nx": "nx",
     "start": "cross-env NODE_ENV=development ng serve",
     "build": "cross-env NODE_ENV=production ng build",
+    "build:docs": "cross-env NODE_ENV=production ng build --prod --base-href=/ngx-calibur/",
     "test": "ng test",
     "lint": "nx workspace-lint && ng lint",
     "e2e": "ng e2e",
