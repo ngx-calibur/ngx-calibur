@@ -24,7 +24,7 @@ export class DemoTheme implements Theme {
   };
 
   buttons = {
-    primary: `${this.base.button} ${this.colors.primary} hoveblue-700`,
+    primary: `${this.base.button} ${this.colors.primary} hover:bg-blue-700`,
     secondary: `${this.base.button} ${this.colors.secondary} hover:bg-green-700`,
   };
 
@@ -38,7 +38,7 @@ export class DemoTheme2 implements Theme {
   };
 
   base = {
-    button: 'text-white font-bold py-2 px-4 rounded transition-all duration-300 ease-out transform hover:-translate-y-1 hover:scale-110 relative hover:z-10',
+    button: 'text-white font-bold py-2 px-4 rounded transition-all duration-300 ease-out transform active:-translate-y-1 active:scale-110 hover:relative hover:z-10',
   };
 
   buttons = {
